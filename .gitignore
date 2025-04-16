@@ -158,3 +158,25 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# === FYP-Specific Additions ===
+
+# Ignore model weights
+model/*.pt
+model/*.pth
+model/*.onnx
+
+# Ignore datasets and CSVs
+data/*.jpg
+data/*.jpeg
+data/*.png
+data/*.zip
+data/*.csv
+
+# LangChain or chatbot-related .env files
+chatbot/.env
+
+# Ignore frontend build files
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
