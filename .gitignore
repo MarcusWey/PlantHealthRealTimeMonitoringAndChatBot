@@ -172,11 +172,3 @@ data/*.jpeg
 data/*.png
 data/*.zip
 data/*.csv
-
-# LangChain or chatbot-related .env files
-chatbot/.env
-
-# Ignore frontend build files
-frontend/.next/
-frontend/node_modules/
-frontend/.env.local
