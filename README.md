@@ -11,7 +11,7 @@ notebooks - Google Colab notebooks for models training
 - YOLOv9s + DeepSORT for disease detection and tracking
 - FastAPI for serving detection results
 - LangChain for chatbot integration
-- Ollama(Gemma3 4b + 1b) + RAG over CSV data
+- Ollama(Gemma3 4b + Llama 3.2b) + RAG over CSV data
 - Roboflow for dataset management
 - Google Colab for model training
 
